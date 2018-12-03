@@ -1,3 +1,4 @@
+SHELL=/bin/bash -o pipefail
 
 
 .PHONY: all test test_suite undoc_tests \
