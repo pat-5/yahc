@@ -1,5 +1,5 @@
 # !!! DO NOT EDIT !!!
-# This code automatically written by yahc.PM
+# This code automatically written by yahc.gen.pm
 
 use 5.010;
 use strict;

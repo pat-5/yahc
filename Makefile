@@ -12,8 +12,8 @@ msg: count_todo
 
 test_suite: fizzbuzz sieve_b sieve_k toe recognize
 
-yahc.pm: yahc.PM
-	perl yahc.PM > yahc.pm
+yahc.pm: yahc.gen.pm
+	perl yahc.gen.pm > yahc.pm
 
 fizzbuzz: yahc.pm fizzbuzz.hoon
 	perl -I. yahcfilt.pl <fizzbuzz.hoon >fizzbuzz.ast.try 2>&1
