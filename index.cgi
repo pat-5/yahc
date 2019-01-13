@@ -8,5 +8,5 @@ echo
 }
 # this is horribly insecure, but we shouldn't have read access to
 # any files we shouldn't be reading anyway
-file=../"$PATH_INFO"
+file=yahc/"$PATH_INFO"
 cat $file # TODO census
